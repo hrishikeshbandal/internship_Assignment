@@ -1,0 +1,179 @@
+<html>
+<head><title>Resume Form</title></head>
+
+<body>
+<center>
+<h1>Fill Your Resume</h1>
+<form action="#" method="post">
+    <table border=1 cellpadding="10" cellspacing="10">
+    
+        <tr>
+            <td>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName">
+
+            </td>
+            <td>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email">
+
+            </td>
+            <td>
+                <label for="phoneno">PhoneNo:</label>
+                <input type="number" id="phoneno" name="PhoneNo">
+            </td>
+  
+        </tr>
+
+        <tr>
+            <td>
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob" name="DOB">
+
+            </td>
+            <td><label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                <input type="radio" id="otherGender" name="gender" value="other">
+                        <label for="otherGender">Other</label>
+            </td>
+            <td>
+                <label>Marital Status</label>
+                <input type="radio" id="Single" name="Single" value="single">
+                        <label for="Single">Single</label>
+                <input type="radio" id="married" name="married" value="married">
+                        <label for="married">Married</label>
+
+            </td>
+  
+        </tr>
+
+        <tr>
+            <td>
+                <label for="nation">Nationality:</label>
+                <input type="text" id="nation" name="nationality">
+
+            </td>
+            <td>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address">Address</textarea>
+
+            </td>
+            <td>
+                <label for="linkdin-url">LinkedIn Profile URL</label>
+                <input type="url" id="linkdin-url" name="LinkedIn Profile URL">
+            </td>
+  
+        </tr>
+
+         <tr>
+            <td>
+                <label for="giturl">GitHub URL:</label>
+                <input type="url" id="giturl" name="Git-Hub_URL">
+
+            </td>
+            <td>
+                <label for="profilephoto">Profile Photo:</label>
+                <input type="file" id="profilephoto" name="Profile Photo">
+
+            </td>
+            <td>
+                <label for="resumepdf">Resume PDF:</label>
+                <input type="file" id="resumepdf" name="resume-PDF" accept=".pdf">
+            </td>
+  
+        </tr>
+
+        <tr>
+            <td>
+                <label for="objectives">Career Objectives</label>
+                <textarea id="objectives" name="Career Objectives">Objectives</textarea>
+            </td>
+             <td>
+                <label for="highestQualification">Highest Qualification:</label>
+                <input type="text" id="highestQualification" name="Highest Qualification">
+
+            </td>
+            <td>
+                <label for="collegename">College Name</label>
+                <input type="text" id="collegename" name="College Name">
+            </td>
+
+        </tr>
+
+          
+    </table>
+          <h3>Technical Information</h3>
+   
+    <table border="1" cellpadding="10" cellspacing="10">
+        <tr>
+           <td>
+              <label for="technicalSkills">Technical Skills (e.g., HTML, CSS, JS):</label>
+              <input type="text" id="technicalSkills" name="technicalSkills" placeholder="Comma separated values">
+           </td>
+           <td>
+                <label for="certifications">Certifications (if any):</label>
+                <textarea id="certifications" name="certifications">Certifications</textarea>
+           </td>
+
+        </tr>
+
+        <tr>
+
+             <td>
+               <label for="workExperienceYears">Work Experience(Years)</label>
+               <input type="number" id="workExperienceYears" name="workExperienceYears">
+           </td>
+
+            <td>
+                <label for="last">Last Company Worked At:</label>
+                <input type="text" id="last" name="Last Company Worked At">
+
+            
+        </tr>
+        <tr>
+              </td>
+            <td>
+                <label for="role">Your Job Role / Designation:</label>
+                <input type="text" id="role" name="Job Role">
+
+            </td>
+            <td>
+                <label for="language">Languages Known:</label>
+                <input type="text" id="language" name="Languages-Known">
+            </td>
+
+        </tr>
+
+        
+        
+    </table>
+
+    <h3>Additional Information</h3>
+
+            <table border=1 cellpadding="10" cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="hobbies">Hobbies:</label>
+                        <textarea id="hobbies" name="hobbies">Hobbies</textarea>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="declaration" name="declaration" value="agreed" required>
+                        <label for="declaration">Note:-information provided is true and accurate</label>
+                    </td>
+                </tr>
+            </table>
+
+
+ <input type="submit" value="Submit Resume">  
+
+</form>
+
+</center>
+
+</body>
+</html>
