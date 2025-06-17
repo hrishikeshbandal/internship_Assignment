@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #e8e8ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 400px; 
+}
+
+.nav-link {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+i {
+    color: black;
+    font-size: 16px; 
+}
