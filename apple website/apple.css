@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #e8e8ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 400px; 
+}
+
+.nav-link {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+i {
+    color: black;
+    font-size: 16px; 
+}
+
+.second-section {
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+
+.second-section .left {
+    width: 50%;
+    height: 90vh;
+    
+    background-image: url("apple_img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+     background-size: cover;
+}
+
+.second-section .left .overlay {
+    background-color: rgba(0, 0, 0, 0.350);
+    width: 100%;
+    height: 90vh;
+}
+
+.overlay .content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+.overlay .content h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.overlay .content p{
+    padding: 10px 0;
+}
+
+.overlay .content button{
+    padding: 8px 25px;
+    background: transparent;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-section .right {
+    /* background-color: lightcoral; */
+    width: 50%;
+    background-image: url("apple_img2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.second-section .right .overlay{
+background-color:rgba(0, 0, 0,0.550);
+width:100%;
+height:100%;
+}
+
